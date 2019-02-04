@@ -70,14 +70,14 @@ public class MainActivity extends AppCompatActivity {
     private void updateView() {
         TextView display = findViewById(R.id.output);
         display.setText(String.format(Locale.US, "%s", calculate.getDisplay()));
-        /**
-         String displayNumber = calculate.getDisplay();
+
+         /**String displayNumber = calculate.getDisplay();
          String[] numbers = displayNumber.split(".");
          int n = Integer.parseInt(numbers[1]);
          if(n == 0) {
-         display.setText(String.format(Locale.US, "%d", numbers[0]));
+         display.setText(String.format(Locale.US, "%s", numbers[0]));
          } else {
-         display.setText(String.format(Locale.US, "%d", displayNumber));
+         display.setText(String.format(Locale.US, "%s", displayNumber));
          }*/
     }
 }

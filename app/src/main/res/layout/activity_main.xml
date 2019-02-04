@@ -26,14 +26,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/clear_all_button_label"/>
+            android:text="@string/clear_all_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/clear"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/clear_button_label"/>
+            android:text="@string/clear_button_label"
+            android:onClick="buttonClick"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,28 +47,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/seven_button_label"/>
+            android:text="@string/seven_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/eight"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/eight_button_label"/>
+            android:text="@string/eight_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/nine"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/nine_button_label"/>
+            android:text="@string/nine_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/plus"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/plus_button_label"/>
+            android:text="@string/plus_button_label"
+            android:onClick="buttonClick"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -78,28 +84,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/four_button_label"/>
+            android:text="@string/four_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/five"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/five_button_label"/>
+            android:text="@string/five_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/six"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/six_button_label"/>
+            android:text="@string/six_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/minus"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/minus_button_label"/>
+            android:text="@string/minus_button_label"
+            android:onClick="buttonClick"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -111,28 +121,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/one_button_label"/>
+            android:text="@string/one_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/two"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/two_button_label"/>
+            android:text="@string/two_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/three"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/three_button_label"/>
+            android:text="@string/three_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/divide"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/divide_button_label"/>
+            android:text="@string/divide_button_label"
+            android:onClick="buttonClick"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -144,28 +158,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/zero_button_label"/>
+            android:text="@string/zero_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/decimal"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/decimal_button_label"/>
+            android:text="@string/decimal_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/equal"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/equal_button_label"/>
+            android:text="@string/equal_button_label"
+            android:onClick="buttonClick"/>
         <Button
             android:id="@+id/multiply"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_button_text_size"
-            android:text="@string/multiply_button_label"/>
+            android:text="@string/multiply_button_label"
+            android:onClick="buttonClick"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -17,4 +17,6 @@
     <string name="minus_button_label">-</string>
     <string name="divide_button_label">/</string>
     <string name="multiply_button_label">x</string>
+    <string name="equal_button_label">=</string>
+    <string name="decimal_button_label">.</string>
 </resources>

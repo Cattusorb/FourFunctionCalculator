@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Four-Function Calculator</string>
+    <string name="output_text">0</string>
+    <string name="clear_button_label">C</string>
+    <string name="clear_all_button_label">AC</string>
+    <string name="one_button_label">1</string>
+    <string name="two_button_label">2</string>
+    <string name="three_button_label">3</string>
+    <string name="four_button_label">4</string>
+    <string name="five_button_label">5</string>
+    <string name="six_button_label">6</string>
+    <string name="seven_button_label">7</string>
+    <string name="eight_button_label">8</string>
+    <string name="nine_button_label">9</string>
+    <string name="zero_button_label">0</string>
+    <string name="plus_button_label">+</string>
+    <string name="minus_button_label">-</string>
+    <string name="divide_button_label">/</string>
+    <string name="multiply_button_label">x</string>
+</resources>

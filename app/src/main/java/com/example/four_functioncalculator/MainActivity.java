@@ -71,13 +71,17 @@ public class MainActivity extends AppCompatActivity {
         TextView display = findViewById(R.id.output);
         display.setText(String.format(Locale.US, "%s", calculate.getDisplay()));
 
-         /**String displayNumber = calculate.getDisplay();
+        /** String displayNumber = calculate.getDisplay();
          String[] numbers = displayNumber.split(".");
          int n = Integer.parseInt(numbers[1]);
-         if(n == 0) {
-         display.setText(String.format(Locale.US, "%s", numbers[0]));
+         if(numbers[0] != null) {
+                if(n == 0) {
+                     display.setText(String.format(Locale.US, "%s", numbers[0]));
+                 } else {
+                    display.setText(String.format(Locale.US, "%s", displayNumber));
+                 }
          } else {
          display.setText(String.format(Locale.US, "%s", displayNumber));
-         }*/
+         } */
     }
 }
